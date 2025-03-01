@@ -37,7 +37,7 @@ La automatización se realiza mediante **GitHub Actions**, garantizando que los 
 ├── README.md
 ├── .github
 │   └── workflows
-│       └── bigdata.yml
+│       └── test_actividad1.yml
 └── src
     ├── static
     │   ├── auditoria

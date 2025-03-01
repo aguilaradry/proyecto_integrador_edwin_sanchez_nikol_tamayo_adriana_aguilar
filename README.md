@@ -1,6 +1,6 @@
 ## Proyecto de Ingesta de Datos desde una API a SQLite
 
-## aguilaradry-proyecto_integrador_edwin_sanchez_nikol_tamayo_adriana_aguilar
+## proyecto_integrador_edwin_sanchez_nikol_tamayo_adriana_aguilar
 
 ### Descripción del Proyecto  
 

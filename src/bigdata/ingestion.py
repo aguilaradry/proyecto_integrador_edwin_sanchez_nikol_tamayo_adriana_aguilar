@@ -26,13 +26,14 @@ class Ingestion:
             data = response.json()
             
             juegos_procesados = []
-            for game in data[:20]:  # Limitamos a 20 juegos
+            for game in data[:100]:  # Limitamos a 100 juegos
                 juegos_procesados.append({
                     "id": game.get("id", "N/A"),
                     "nombre": str(game.get("name", "Desconocido")),  
                     "genero": ", ".join(game.get("genre", ["Desconocido"])) if isinstance(game.get("genre"), list) else str(game.get("genre", "Desconocido")),
-                    "plataformas": ", ".join(game.get("platforms", ["Desconocido"])) if isinstance(game.get("platforms"), list) else str(game.get("platforms", "Desconocido")),
-                    "año": str(game.get("releaseYear", "Desconocido"))
+                    "desarrolladores": ", ".join(game.get("developers", ["Desconocido"])) if isinstance(game.get("developers"), list) else "Desconocido",
+                    "publicadores": ", ".join(game.get("publishers", ["Desconocido"])) if isinstance(game.get("publishers"), list) else "Desconocido",
+                    "fecha_lanzamiento": game.get("releaseDates", {}).get("NorthAmerica", "Desconocido")  # Solo fecha de Norteamérica
                 })
             
             return juegos_procesados
@@ -47,21 +48,25 @@ class Ingestion:
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
 
+         # Eliminar la tabla si existe
+        cursor.execute("DROP TABLE IF EXISTS videojuegos")
+
         # Crear la tabla si no existe
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS videojuegos (
                 id INTEGER PRIMARY KEY,
                 nombre TEXT,
                 genero TEXT,
-                plataformas TEXT,
-                año TEXT
+                desarrolladores TEXT,
+                publicadores TEXT,
+                fecha_lanzamiento TEXT
             )
         """)
 
         # Insertar datos con conversión segura
         cursor.executemany("""
-            INSERT OR REPLACE INTO videojuegos (id, nombre, genero, plataformas, año)
-            VALUES (:id, :nombre, :genero, :plataformas, :año)
+            INSERT OR REPLACE INTO videojuegos (id, nombre, genero, desarrolladores, publicadores, fecha_lanzamiento)
+            VALUES (:id, :nombre, :genero, :desarrolladores, :publicadores, :fecha_lanzamiento)
         """, [{k: v if v is not None else "Desconocido" for k, v in game.items()} for game in datos])
 
         conn.commit()

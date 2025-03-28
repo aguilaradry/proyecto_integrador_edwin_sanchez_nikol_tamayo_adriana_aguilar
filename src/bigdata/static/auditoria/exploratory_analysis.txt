@@ -6,7 +6,7 @@ Valores nulos por columna:
 id                   0
 nombre               0
 genero               0
-desarrolladores      5
+desarrolladores      6
 publicadores         0
 fecha_lanzamiento    0
 dtype: int64
@@ -20,17 +20,17 @@ publicadores         object
 fecha_lanzamiento    object
 
 Resumen estadístico:
-                id                        nombre  ... publicadores fecha_lanzamiento
-count   110.000000                           110  ...          110               110
-unique         NaN                           100  ...           88                84
-top            NaN  88 Heroes: 98 Heroes Edition  ...        PQube        Unreleased
-freq           NaN                             2  ...            3                 5
-mean     50.809091                           NaN  ...          NaN               NaN
-std      29.088443                           NaN  ...          NaN               NaN
-min       1.000000                           NaN  ...          NaN               NaN
-25%      26.000000                           NaN  ...          NaN               NaN
-50%      50.500000                           NaN  ...          NaN               NaN
-75%      76.750000                           NaN  ...          NaN               NaN
-max     100.000000                           NaN  ...          NaN               NaN
+                id           nombre  ...     publicadores fecha_lanzamiento
+count   110.000000              110  ...              110               110
+unique         NaN              100  ...               88                84
+top            NaN  #KillAllZombies  ...  Robot Gentleman               TBA
+freq           NaN                2  ...                3                 4
+mean     49.636364              NaN  ...              NaN               NaN
+std      29.427793              NaN  ...              NaN               NaN
+min       1.000000              NaN  ...              NaN               NaN
+25%      23.250000              NaN  ...              NaN               NaN
+50%      49.500000              NaN  ...              NaN               NaN
+75%      74.750000              NaN  ...              NaN               NaN
+max     100.000000              NaN  ...              NaN               NaN
 
 [11 rows x 6 columns]

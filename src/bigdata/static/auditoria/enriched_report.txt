@@ -1,4 +1,4 @@
- Auditoría de Enriquecimiento - 2025-03-27 21:53:14
+ Auditoría de Enriquecimiento - 2025-03-27 22:15:06
 ======================================================================
 Total registros base: 100
 Total registros adicionales: 100
@@ -7,5 +7,5 @@ Registros con información adicional: 100
 Registros sin información adicional: 0
 
 Transformaciones aplicadas:
-- Unión de datasets por columna 'id'
-- Integración de columnas: plataforma, calificación, tamaño (GB)
+- Cruce horizontal de datasets por columna 'id'
+- Integración de columnas: plataforma, calificacion, tamano_gb

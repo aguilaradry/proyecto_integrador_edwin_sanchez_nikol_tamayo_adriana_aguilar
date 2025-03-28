@@ -146,7 +146,7 @@ El script enrichment.py realiza las siguientes tareas:
     - Lee el archivo cleaned_data.csv generado en la Actividad 2.
     - Lee el archivo adicional additional_data.csv con información complementaria.
 - Enriquecimiento:
-    - Combina ambos datasets utilizando la columna id como clave.
+    - Combina ambos datasets a través de un cruce horizontal (pd.merge) utilizando la columna id como clave.
     - Agrega las columnas: plataforma, calificacion, tamano_gb.
 - Guardado de Resultados:
     - Guarda el dataset enriquecido en: src/csv/enriched_data.csv.

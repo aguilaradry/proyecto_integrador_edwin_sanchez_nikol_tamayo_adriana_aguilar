@@ -45,8 +45,8 @@ class DataEnrichment:
             f.write(f"Registros con información adicional: {registros_enriquecidos}\n")
             f.write(f"Registros sin información adicional: {registros_no_encontrados}\n")
             f.write("\nTransformaciones aplicadas:\n")
-            f.write("- Unión de datasets por columna 'id'\n")
-            f.write("- Integración de columnas: plataforma, calificación, tamaño (GB)\n")
+            f.write("- Cruce horizontal de datasets por columna 'id'\n")
+            f.write("- Integración de columnas: plataforma, calificacion, tamano_gb\n")
 
     def ejecutar_proceso(self):
         cleaned_df, additional_df = self.cargar_datasets()

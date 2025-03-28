@@ -1,10 +1,14 @@
- Auditoría de Enriquecimiento - 2025-03-27 22:15:06
+ Auditoría de Enriquecimiento - 2025-03-27 22:26:55
 ======================================================================
 Total registros base: 100
 Total registros adicionales: 100
 Total registros enriquecidos: 100
 Registros con información adicional: 100
 Registros sin información adicional: 0
+
+Estructura de los datos antes y después del enriquecimiento:
+Columnas iniciales: id, nombre, genero, desarrolladores, publicadores, fecha_lanzamiento
+Columnas finales: id, nombre, genero, desarrolladores, publicadores, fecha_lanzamiento, plataforma, calificacion, tamano_gb
 
 Transformaciones aplicadas:
 - Cruce horizontal de datasets por columna 'id'

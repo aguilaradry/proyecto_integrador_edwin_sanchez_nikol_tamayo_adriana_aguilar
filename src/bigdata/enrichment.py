@@ -44,6 +44,11 @@ class DataEnrichment:
             f.write(f"Total registros enriquecidos: {len(enriched_df)}\n")
             f.write(f"Registros con información adicional: {registros_enriquecidos}\n")
             f.write(f"Registros sin información adicional: {registros_no_encontrados}\n")
+
+            f.write("\nEstructura de los datos antes y después del enriquecimiento:\n")
+            f.write(f"Columnas iniciales: {', '.join(cleaned_df.columns)}\n")
+            f.write(f"Columnas finales: {', '.join(enriched_df.columns)}\n")
+        
             f.write("\nTransformaciones aplicadas:\n")
             f.write("- Cruce horizontal de datasets por columna 'id'\n")
             f.write("- Integración de columnas: plataforma, calificacion, tamano_gb\n")

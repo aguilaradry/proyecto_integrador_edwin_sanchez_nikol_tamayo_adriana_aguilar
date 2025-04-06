@@ -187,3 +187,42 @@ Se incluye un Workflow de GitHub Actions ubicado en .github/workflows/test_activ
 ├── .gitignore
 ├── README.md
 └── setup.py
+
+## Actividad 4: Documentación de la Arquitectura y Modelo de Datos
+
+### Objetivo
+Documentar y explicar de forma detallada la arquitectura del proyecto integrador de Big Data, integrando la descripción de las fases (ingesta, preprocesamiento, enriquecimiento) en un entorno simulado de nube, y definir el modelo de datos resultante. Se espera que el documento evidencie la estructura, los flujos de datos, la selección de herramientas, la automatización y el modelo de datos (esquema, relaciones y estructura de la base de datos).
+
+### 📂 Estructura del proyecto
+
+[proyecto_integrador_edwin_sanchez_nikol_tamayo_adriana_aguilar]
+├── .github
+│   └── workflows
+│       └── test_proyecto.yml  # Workflow para la ingesta, limpieza, enriquecimiento y auditoría
+├── src
+│   └── bigdata
+│       ├── static
+│       │   ├── auditoria
+│       │   │   ├── cleaning_report.txt      # Reporte de limpieza
+│       │   │   ├── exploratory_analysis.txt # Análisis exploratorio
+│       │   │   ├── ingestion.txt            # Registro de ingesta
+│       │   │   └── enrichment_report.txt    # Reporte de auditoría del enriquecimiento
+│       │   ├── csv
+│       │   │   ├── cleaned_data.csv         # Datos limpios
+│       │   │   ├── dirty_data.csv           # Datos originales
+│       │   │   ├── additional_info.csv      # Datos adicionales para enriquecer
+│       │   │   └── enriched_data.csv        # Dataset final enriquecido
+│       │   ├── db
+│       │   │   └── ingestion.db             # Base de datos SQLite con los datos procesados
+│       │   └── xlsx
+│       │       └── ingestion.xlsx           # Datos en formato Excel
+│       ├── cleaning.py                      # Script de limpieza de datos
+│       ├── enrichment.py                    # Script de enriquecimiento de datos
+│       └── ingestion.py                      # Script de ingesta de datos
+├── docs
+│   ├── arquitectura.drawio                   # Diagrama de arquitectura del sistema
+│   ├── modelo_datos.drawio                   # Diagrama del modelo de datos
+├── .gitignore
+├── README.md
+└── setup.py
+

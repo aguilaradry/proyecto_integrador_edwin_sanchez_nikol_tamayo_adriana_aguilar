@@ -1,10 +1,10 @@
 id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
-1,Breakforcist battle,Party,Lucid Sheep Games,Lucid Sheep Games,2018-04-12
+1,Breakforcist battle,Party,Desconocido,Lucid Sheep Games,2018-04-12
 2,Killallzombies,"Survival, third-person shooter",Beatshapers,Beatshapers,2019-01-24
 3,Racedierun,Racing,QubicGames,QubicGames,2019-08-09
 4,'n velore verstand,Adventure,Skobbejak Games,Skobbejak Games,2018-11-06
 5,1-2-switch,Party,Nintendo EPD,Nintendo,2017-03-03
-6,10 second run returns,"Party, racing",Desconocido,Blue Print,2018-01-25
+6,10 second run returns,"Party, racing",Blue Print,Blue Print,2018-01-25
 7,1001 ultimate mahjong 2,Puzzle,Nawia Games,Nawia Games,2018-10-25
 8,12 is better than 6,Adventure,Ink Stains Games,HypeTrain Digital,2019-03-05
 9,12 labors of hercules'hercules,Adventure,"Jetdogs, Zoom Out Games",JetDogs,2019-03-24
@@ -15,7 +15,7 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 14,2048 battles,Party,Baltoro Games,Baltoro Games,2019-09-20
 15,2048 cat,Puzzle,Millo Games,Millo Games,2019-12-23
 16,2064: read only memories integral,Adventure,MidBoss,MidBoss,2018-08-14
-17,20xx,Platformer,Batterystaple Games,Batterystaple Games,2018-07-10
+17,20xx,Platformer,Desconocido,Batterystaple Games,2018-07-10
 18,30-in-1 game collection,Arcade,Digital Bards,Digital Bards,2019-05-30
 19,36 fragments of midnight,Platformer,Petite Games,"JP: Rainy Frog, WW: Ratalaika Games",2017-09-14
 20,3d minigolf,Sports,Joindots,Joindots,2018-02-01
@@ -36,12 +36,12 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 35,A hat in time,Action-adventure,Gears for Breakfast,Humble Bundle,2019-10-18
 36,Aaero,"Action, rhythm",Mad Fellows,Mad Fellows,2018-12-24
 37,Aborigenus,Platformer,Drageus Games,Drageus Games,2020-01-10
-38,Abzû,Adventure,Giant Squid Studios,505 Games,2018-11-29
+38,Abzû,Adventure,Desconocido,505 Games,2018-11-29
 39,Access denied,Puzzle,Stately Snail,Ratalaika Games,2019-02-08
 40,Ace of seafood,Shoot 'em up,Nussoft,Nussoft,2018-02-22
 41,Aces of the luftwaffe: squadron,Shoot 'em up,HandyGames,"JP: Worker Bee, WW: HandyGames",2017-11-17
 42,Achtung! cthulhu tactics,Tactical role-playing,Auroch Digital,Ripstone,2019-01-24
-43,Acorn tactics,Turn-based strategy,Desconocido,Tacs Games,2017-12-07
+43,Acorn tactics,Turn-based strategy,Tacs Games,Tacs Games,2017-12-07
 44,The adventure pals,Platformer,Massive Monster,Armor Games,2018-04-03
 45,Adventure time: pirates of the enchiridion,Adventure,Climax Studios,"NA: Outright Games, PAL: Bandai Namco Entertainment",2018-07-17
 46,Adventures of bertram fiddle episode 1: a dreadly business,Adventure,Rumpus Animation,Chorus Worldwide,2018-03-29
@@ -55,7 +55,7 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 54,Agent a: a puzzle in disguise,Puzzle,Yak,Yak,2019-08-29
 55,Aggelos,Action role-playing,Storybird Games,PQube,2019-04-24
 56,Agony,Survival horror,Madmind Studio,Forever Entertainment,2019-10-31
-57,Air conflicts: pacific carriers,Simulation,Games Farm,"JP: H2 Interactive, WW: Kalypso Media",2019-03-26
+57,Air conflicts: pacific carriers,Simulation,Desconocido,"JP: H2 Interactive, WW: Kalypso Media",2019-03-26
 58,Air conflicts: secret wars,Simulation,Games Farm,"JP: H2 Interactive, WW: Kalypso Media",2019-03-26
 59,Air hockey,Arcade,Sabec,Sabec,2018-02-28
 60,Air mail,Simulation,N-Fusion Interactive,N-Fusion Interactive,2018-06-26
@@ -69,7 +69,7 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 68,Almost there: the platformer,"Action-adventure, platformer",The Quantum Astrophysicists Guild,The Quantum Astrophysicists Guild,2019-02-21
 69,Alpha,Action,Kaname,Kaname,2019-04-18
 70,Alteric,Platformer,Goonswarm,Sometimes You,2018-03-30
-71,Alternate jake hunter: daedalus the awakening of golden jazz,Adventure,Desconocido,Arc System Works,2019-05-23
+71,Alternate jake hunter: daedalus the awakening of golden jazz,Adventure,Neilo,Arc System Works,2019-05-23
 72,Alwa’s awakening,Platformer,Elden Pixels,Elden Pixels,2018-09-27
 73,Amazing brick breaker,Arcade,Cyberfront Korea,CFK,2019-11-28
 74,Ambition of the slimes,"Turn-based strategy, role-playing",Altairworks,Flyhigh Works,2018-01-18
@@ -91,7 +91,7 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 90,Another lost phone: laura's story,Puzzle,"Accidental Queens, Seaven Studio",Plug In Digital,2018-04-26
 91,Another sight,Adventure,Lunar Great Wall Studios,Lunar Great Wall Studios,2019-06-28
 92,Another world,Platformer,Dotemu,Dotemu,2018-07-09
-93,Antiquia lost,Role-playing,Desconocido,Kemco,2017-11-16
+93,Antiquia lost,Role-playing,Exe Create,Kemco,2017-11-16
 94,Aokana: four rhythm across the blue,Visual novel,Sprite,Sprite,2025-04-06
 95,Ape out,Action,Gabe Cuzzillo,Devolver Digital,2019-02-28
 96,Aperion cyberstorm,Twin-stick shooter,Desconocido,aPriori Digital,2018-02-08

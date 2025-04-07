@@ -20,17 +20,17 @@ publicadores         object
 fecha_lanzamiento    object
 
 Resumen estadístico:
-                id  ... fecha_lanzamiento
-count   110.000000  ...               110
-unique         NaN  ...                84
-top            NaN  ...      May 30, 2019
-freq           NaN  ...                 4
-mean     50.981818  ...               NaN
-std      29.267818  ...               NaN
-min       1.000000  ...               NaN
-25%      26.250000  ...               NaN
-50%      50.500000  ...               NaN
-75%      76.750000  ...               NaN
-max     100.000000  ...               NaN
+                id              nombre  ... publicadores fecha_lanzamiento
+count   110.000000                 110  ...          110               110
+unique         NaN                 100  ...           88                84
+top            NaN  'n Velore Verstand  ...        PQube      May 30, 2019
+freq           NaN                   2  ...            3                 3
+mean     51.309091                 NaN  ...          NaN               NaN
+std      29.611164                 NaN  ...          NaN               NaN
+min       1.000000                 NaN  ...          NaN               NaN
+25%      25.250000                 NaN  ...          NaN               NaN
+50%      52.500000                 NaN  ...          NaN               NaN
+75%      76.750000                 NaN  ...          NaN               NaN
+max     100.000000                 NaN  ...          NaN               NaN
 
 [11 rows x 6 columns]
